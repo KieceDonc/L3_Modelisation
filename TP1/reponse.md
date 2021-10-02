@@ -18,3 +18,15 @@ Les oiseaux dont le nom contient ”accenteur” : //espece[contains(@nom,'accen
 
 #Q7
 Les  ́elements ayant 5 enfants : /oiseaux/descendant::*[count(descendant::node())>4]
+
+#Q8
+/descendant::*[count(descendant::*) = 3]/descendant::*
+
+#Q9 
+/descendant::*[count(descendant::*) = 3]
+
+#Q10
+/descendant::*[count(ancestor::*) = 3]
+
+#reminder xmllint --xpath '/descendant::*[count(following-sibling::node()) and count(preceding-sibling::node())>2]' oiseaux.xml 
+
