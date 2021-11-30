@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeu>
+  <personnage nom="Gloin">
+    <force>15</force>
+    <dexterite>9</dexterite>
+    <pouvoir>1</pouvoir>
+    <vie>19</vie>
+    <equipement>
+      <objet poids="10">Hache</objet>
+      <objet poids="3">Bouclier</objet>
+    </equipement>
+  </personnage>
+  <personnage nom="Thorn">
+    <force>11</force>
+    <dexterite>16</dexterite>
+    <pouvoir>10</pouvoir>
+    <vie>15</vie>
+    <equipement>
+      <objet poids="1">Arc</objet>
+    </equipement>
+  </personnage>
+  <personnage nom="Sibylle">
+    <force>11</force>
+    <dexterite>18</dexterite>
+    <pouvoir>17</pouvoir>
+    <vie>16</vie>
+  </personnage>
+</jeu>
