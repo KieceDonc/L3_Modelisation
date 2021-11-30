@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<catalogue>
+  <objet>
+    <nom lang="fr">Table de nuit</nom>
+    <nom lang="en">Bedside table</nom>
+    <description lang="en"> What a cute mahogany table with rich ornaments ! </description> 
+    <description lang="fr"> Magnifique table de nuit en acajou, orn´ee de motifs chatoyants. </description> 
+    <prix devise="EUR">125</prix> 
+    <stock>22</stock> 
+  </objet> 
+  <objet> 
+    <nom lang="fr">Buffet</nom> 
+    <description lang="fr"> Buffet deux corps, de style classique. </description>
+    <prix devise="EUR">250</prix> 
+    <stock>1</stock> 
+  </objet> 
+</catalogue>

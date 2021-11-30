@@ -1,0 +1,1 @@
+xsltproc exo1.xsl exo1.xml > exo1.html
